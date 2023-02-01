@@ -1,8 +1,9 @@
 body {
     background: rgb(207, 251, 255);
-    color: rgb(45, 45, 45);
+    color: rgb(247, 240, 240);
     padding: 10px;
     font-family: arial;
+    background-image: url(https://images3.alphacoders.com/203/203247.jpg) ;
 }
 #all-contents {
   max-width: 800px;
@@ -11,7 +12,7 @@ body {
 
 /* navigation menu */
 nav {
-    background: rgb(255, 51, 0);
+    background: rgba(24, 5, 0, 0.521);
    margin: 0 auto;
    margin-bottom: 20px; 
     display: flex;
@@ -38,7 +39,7 @@ a {
 
 /* main container area beneath menu */
 main {
-    background: rgb(245, 238, 219);
+    background: rgba(14, 0, 0, 0.63);
     display: flex;
 }
 .sidebar {
@@ -55,9 +56,33 @@ main {
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: 4px rgb(255, 0, 0) ridge;
     padding: 8px;
 }
 h2, h3 {
     margin: 0px;
+}/* portfolio styles */
+.content h1 {
+    color: black;
+}
+
+#portfolio {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#portfolio li {
+    background: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#portfolio li:hover {
+    background: #eee;
+}
+
+#portfolio a {
+    text-decoration: none;
+    color: #454545;
 }
