@@ -66,9 +66,10 @@ $(function () {
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay)
-    createCannon('bottom',510,1300);
-    createCannon('bottom',680,1300);
-    createCannon('right',220,1800);
+    createCannon('bottom',510,1400);
+    createCannon('bottom',680,1400);
+    createCannon('right',220,2000);
+    createCannon('left',680,1);
 
 
 

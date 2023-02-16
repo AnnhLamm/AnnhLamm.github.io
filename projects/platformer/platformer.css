@@ -3,7 +3,8 @@ body {
 }
 
 canvas {
-  background-color: lightgray;
+  background-color: rgb(252, 249, 249);
+ background-image: url(https://www.google.com/imgres?imgurl=https%3A%2F%2Fpreview.redd.it%2F86yagye25g841.png%3Fauto%3Dwebp%26s%3Dd6b45a8c26cdc22b5093297fd7d7512d40d72ba3&imgrefurl=https%3A%2F%2Fwww.reddit.com%2Fr%2Fgeometrydash%2Fcomments%2Fej5ylb%2Fso_i_mad_a_extended_changeable_color_background%2F&tbnid=GFNbQq-2sD9dmM&vet=12ahUKEwjR4cnA65r9AhVt6skDHYTJBGYQMygAegUIARDCAQ..i&docid=WaEmqLCax_wJbM&w=4048&h=2048&q=geometry%20dash%20background&ved=2ahUKEwjR4cnA65r9AhVt6skDHYTJBGYQMygAegUIARDCAQ) ;
 }
 
 img {
